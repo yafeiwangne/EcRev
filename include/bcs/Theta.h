@@ -37,7 +37,7 @@ protected:
    */
   Real f();
 
-  Function & _func;
+  const Function & _func; //update 2019-08-09
 
 };
 
